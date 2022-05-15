@@ -1,11 +1,17 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    color: #130001;
+    color: #b8090e;
 }
-
+#pic{
+    height:350px;
+    width: 300px;
+    left: 50px;
+    top: 50px;
+    position: absolute;
+}
 #title {
-    height: 150px;
+    height: 100px;
     width: 400px;
 }
 
@@ -13,7 +19,7 @@ body {
     width: 360px;
     height: 360px;
     background-color: #dbe0e1;
-    border: 10px solid #130001;
+    border: 10px solid #b8090e;
 
     margin: 0 auto;
     display: flex;
@@ -23,5 +29,5 @@ body {
 #board img {
     width: 118px;
     height: 118px;
-    border: 1px solid #130001;
+    border: 1px solid #b8090e;
 }
